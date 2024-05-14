@@ -1,0 +1,35 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color:yellow; */
+}
+#heading{
+  font-size: 4rem;
+  color: hsl(0, 0%,25%);
+}
+#container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: white ;
+ 
+}
+#watch{
+  font-size: 4rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: hsl(0, 0%, 30%);
+  text-shadow: 2px 2px 2px hsla(0,0%,0%,0.75);
+  margin-bottom: 20px;
+}
+ .controls button{
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+
+}
